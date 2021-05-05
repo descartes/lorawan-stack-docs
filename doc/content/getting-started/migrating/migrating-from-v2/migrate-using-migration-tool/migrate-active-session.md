@@ -25,7 +25,9 @@ In the case of persisting active sessions during migration, OTAA devices do not 
 
 {{< tabs/tab "ABP" >}}
 
-The **DevAddr** and some other parameters (like **RX1 Delay**) are hardcoded for ABP devices. If you do not re-program the device to change these values, you are basically migrating it to {{% tts %}} with its active session. 
+The **DevAddr** and some other parameters (like **RX1 Delay**) are hardcoded for ABP devices. If you do not re-program the device to change these values, you can migrate it to {{% tts %}} with its active session. 
+
+Be aware that if you are not migrating specifically from **The Things Industries V2 (SaaS)** to **{{% tts %}} Cloud**, you will have to either [migrate your gateway]({{< ref "/getting-started/migrating/gateway-migration" >}}) to successfully migrate your end device with its active session, or [migrate your end device without active session]({{< ref "/getting-started/migrating/migrating-from-v2/migrate-using-migration-tool/establish-new-session" >}}). 
 
 {{< /tabs/tab >}}
 
