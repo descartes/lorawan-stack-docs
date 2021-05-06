@@ -10,6 +10,10 @@ This section contains instructions for installing the command-line interface.
 
 ### Package managers (recommended)
 
+{{< tabs/container "Open Source" "Enterprise" >}}
+
+{{< tabs/tab "Open Source" >}}
+
 #### macOS
 
 ```bash
@@ -42,6 +46,47 @@ $ sudo snap refresh ttn-lw-stack
 ### Binaries
 
 You can download [pre-built binaries](https://github.com/TheThingsNetwork/lorawan-stack/releases) for your operating system and processor architecture.
+
+{{< /tabs/tab >}}
+
+{{< tabs/tab "Enterprise" >}}
+
+#### macOS
+
+```bash
+$ brew install TheThingsIndustries/lorawan-stack/tti-lw-stack
+```
+
+{{< note >}} When installing with `brew`, auto completion is enabled automatically. {{</ note >}}
+
+To upgrade the CLI if it is already installed, use:
+
+```bash
+$ brew upgrade TheThingsIndustries/lorawan-stack/tti-lw-stack
+```
+
+#### Linux
+
+```bash
+$ sudo snap install tti-lw-stack
+$ sudo snap alias tti-lw-stack.tti-lw-cli tti-lw-cli
+```
+
+{{< note >}} When installing with `snap`, auto completion is enabled automatically. {{</ note >}}
+
+To upgrade the CLI if it is already installed, use:
+
+```bash
+$ sudo snap refresh tti-lw-stack
+```
+
+### Binaries
+
+You can download [pre-built binaries](https://github.com/TheThingsIndustries/lorawan-stack/releases) for your operating system and processor architecture.
+
+{{< /tabs/tab >}}
+
+{{< /tabs/container >}}
 
 ## Configuration
 
