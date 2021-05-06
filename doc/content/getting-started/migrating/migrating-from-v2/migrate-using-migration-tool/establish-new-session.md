@@ -88,7 +88,7 @@ To prevent OTAA device from re-joining the {{% ttnv2 %}} network, the recommende
 
 {{< tabs/tab "ABP" >}}
 
-For ABP device, you need to completely delete it from V2, especially because this section assumes that you have not re-programmed it for a new **DevAddr**. Having this device registered in V2 and The Things Stack would introduce some serious conflicts. 
+{{< warning >}} For ABP device, you need to completely delete it from V2, especially because this section assumes that you have not re-programmed it for a new **DevAddr**. Having this device registered in V2 and The Things Stack would introduce some serious conflicts. {{</ warning >}}
 
 {{< /tabs/tab >}}
 
