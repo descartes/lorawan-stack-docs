@@ -128,6 +128,6 @@ Instead, these Join Requests are going to be routed to {{% tts %}} via Packet Br
 
 ## Next Step - Migrate Gateways
 
-This section implies that you are keeping the **DevAddr** and **RX1 Delay** values from {{% ttnv2 %}}, which means Packet Broker will not be able to route the traffic between your end device and {{% tts %}} neither properly, nor on time. Hence, you will have to [migrate your gateway]({{< ref "/getting-started/migrating/gateway-migration" >}}) as well. 
+This section implies that you are keeping the **DevAddr** and **RX1 Delay** values from {{% ttnv2 %}}, which means Packet Broker will not be able to route the traffic between your end device and {{% tts %}}. Hence, you will have to [migrate your gateway]({{< ref "/getting-started/migrating/gateway-migration" >}}) as well. 
 
 {{< note >}} Keep in mind that we advise to keep your gateways on {{% ttnv2 %}} until you get in touch with your local The Things Network community and coordinate the migration of gateways, so you do not loose the LoRaWAN network coverage. {{</ note >}}
