@@ -207,7 +207,7 @@ Source the file to enable auto completion:
 $ . ./ttn-lw-cli-autocomplete
 ```
 
-Alternatively, put in a default directory so that it is loaded automatically (This directory depends on your Operating System and your shell).
+Alternatively, put in a default directory so that it is loaded automatically (this directory depends on your Operating System and your shell).
 
 For `bash`, this directory is typically `/etc/bash_completion.d/`:
 
@@ -239,7 +239,7 @@ Source the file to enable auto completion:
 $ . ./tti-lw-cli-autocomplete
 ```
 
-Alternatively, put in a default directory so that it is loaded automatically (This directory depends on your Operating System and your shell).
+Alternatively, put in a default directory so that it is loaded automatically (this directory depends on your Operating System and your shell).
 
 For `bash`, this directory is typically `/etc/bash_completion.d/`:
 
